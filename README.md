@@ -17,4 +17,6 @@ Action: Connects to the syllable table in words.db to build structural cadences,
 `python3 generate_balanced_unknown_dataset.py --exclude_csv "./adversarial_balanced_20k.csv" --total 80000`
 
 For Coqui voice clone you can use https://drive.google.com/file/d/12nUmOvpPITjbu9an98Re0M_hxKN1jxFE/view?usp=sharing  
-Or grab your own from the excellent https://accent.gmu.edu/  
+Or grab your own from the excellent https://accent.gmu.edu/
+
+Same with noise files https://drive.google.com/file/d/1tY6qkLSTz3cdOnYRuBxwIM5vj-w4yTuH/view?usp=sharing
