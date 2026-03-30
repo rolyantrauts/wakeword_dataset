@@ -7,4 +7,5 @@ pip install numpy numba scipy transformers soundfile yacs g2p_en jieba pypinyin 
 python -m nltk.downloader "averaged_perceptron_tagger_eng"
 
 git lfs install
+git clone https://www.modelscope.cn/syq163/WangZeJun.git
 git clone https://www.modelscope.cn/syq163/outputs.git
