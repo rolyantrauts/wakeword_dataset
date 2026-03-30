@@ -10,7 +10,7 @@ Grab a cuppa :)
 
 2. extract_balanced_adversarial_dataset.py
 Action: Connects to words.db, queries the adversarial table, and uses stratified random sampling to pull exactly 20,000 balanced records, saving them to adversarial_balanced_20k.csv.
-`python3 extract_balanced_adversarial_dataset.py --output_csv "./my_custom_adversarial.csv" --total 20000`
+`python3 extract_balanced_adversarial_dataset.py --total 20000`
 
 3. generate_balanced_unknown_dataset.py
 Action: Connects to the syllable table in words.db to build structural cadences, loads adversarial_balanced_20k.csv into an exclusion set, and generates 80,000 brand new phrases to save as unknown_balanced_80k.csv
